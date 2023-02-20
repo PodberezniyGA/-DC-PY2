@@ -59,7 +59,7 @@ class Car:
         >>> test_car = Car("Cadillac", 241)
         >>> test_car.add_overall(9.3)
         >>> test_car.check_overall()
-        Соответствие фильма теме: 9.3
+        Общая оценка автомобиля: 9.3
         """
         print(f'Общая оценка автомобиля:{self._overall}')
 
